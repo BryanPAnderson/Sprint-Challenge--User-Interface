@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -66,8 +66,42 @@ p {
     line-height: 1.4;
 }
 
+.pic1 img {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom:30px; 
+    padding-left: ;
+    padding-right: ;
+    width: 68%;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: center;    
+}
+
+header .pic1 {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+	margin: 15px;
+	color: grey;
+	text-align: center;
+	padding: 0 4%;
+	box-sizing: border-box;
+	display: flex;
+	text-decoration: none;
+}
+
+a:hover  {
+	color: white;
+	background-color: black;
+}
+
 .container {
-    width: 800px;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -143,4 +177,99 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*about.HTML starts here.*/
+
+.About {
+    border-bottom: dotted;
+    width: 60%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin:20px;
+    dis
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    width: 90%;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.strategy {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:5px; 
+    margin: 20px;
+    border-bottom: dotted black;
+}
+
+.HHW {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:5px;
+    margin: 20px;
+    border-bottom: dotted black;
+}
+
+button {
+     width: 40%;
+     padding: 7px;
+     margin-top: 40px;
+     background-color: white;
+     border: solid black;
+     border-radius: 9px;
+     font-size: 15px;
+     font-weight: 550;
+ }
+
+.bottom {
+    display: flex;
+    width: 90%;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.PWW {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:5px;
+    margin: 20px;
+    border-bottom: dotted black;
+}
+
+.collab {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:5px;
+    margin: 20px;
+    border-bottom: dotted black;
+}
+.pic1 {
+    padding-bottom: 0px;
 }

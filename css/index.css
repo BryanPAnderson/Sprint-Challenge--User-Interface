@@ -66,6 +66,46 @@ p {
     line-height: 1.4;
 }
 
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: goldenrod;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}  
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
 .pic1 img {
     margin: 0;
     padding-top: 30px;
@@ -200,6 +240,7 @@ footer nav a {
     width: 25%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -212,6 +253,7 @@ footer nav a {
     width: 25%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -244,7 +286,7 @@ button {
     width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -257,6 +299,7 @@ button {
     width: 25%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -268,14 +311,11 @@ button {
 .LWT {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    content: 50%;
     margin: auto;
     width: 55%;
-    padding: 10px;
     margin-bottom: 10px;
-}
-
-h1 {
-    padding: 12px;
 }
 
 footer {
@@ -295,4 +335,12 @@ footer {
     width: 90%;
     display: flex;
     justify-content: center;
+}
+
+h1 {
+    padding-top: 10px;
+    font-weight: bold;
+}
+p {
+    font-weight: bold;
 }
